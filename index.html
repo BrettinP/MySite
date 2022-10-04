@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="uft-8">
+<link rel="stylesheet" href="StyleSheet.css">
+<title>Brettin.Dev</title>
+</head>
+<header>
+<div id="name">
+	<h1>Brettin.Dev</h1>
+</div>
+</header>
+<body>
+<script>
+
+	var i = 0;
+	var images = [];
+	var time = 2500;
+
+	images[0] = 'Images/IMG1.JPG';
+	images[1] = 'Images/IMG2.JPG';
+	images[2] = 'Images/IMG3.JPG';
+	images[3] = 'Images/IMG4.JPG';
+	images[4] = 'Images/IMG5.JPG';
+	images[5] = 'Images/IMG6.JPG';
+	images[6] = 'Images/IMG7.JPG';
+	images[7] = 'Images/IMG8.JPG';
+	images[8] = 'Images/IMG9.JPG';
+	images[9] = 'Images/IMG10.JPG';
+
+	function changeImg(){
+	document.slide.src = images[i]
+
+	if(i < images.length - 1){
+	i++;
+	} else {
+	i = 0 ;
+	}
+	setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg
+</script>
+
+
+<div class='audio-player'>
+	<audio controls id="BGmusic">
+		<source src="video-audio/track1.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<script>
+		var audio = document.getElementById("BGmusic");
+		audio.volume = 0.4;
+	</script>
+</div>
+ <nav>
+    <ul id="horizontal-list">
+		<li><a href="index.html">Home</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<li><a href="About.html">About</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<li><a href="Contact.html">Contact</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<li><a href="Resume.pdf" download="Resume">Resume</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<li><a href="https://github.com/BrettinP">Github</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<li><a href="https://www.linkedin.com/in/brettin-parkin-51b873252/">Linkedin</a></li> 
+	</ul>
+</nav>
+<div id="wrapper">
+<div id="slidsehow">
+	<img name="slide" width="800" height="300" >
+</div>
+<br>
+<div id="textbox">
+	<h3>What do I do?</h3><br>
+	<h4>I am a Full-Stack web developoer and software engineeer trying to push my skills and knowlegde. I love computers and the doors they have opened.
+	I hope to learn a lot in the industry and take what I have to create a product of my own in the future. I am very interested
+	in game design 3D rendering. I find AI research extremely fascinating and would love to get involved at some point in the future. I started 
+	my journey in formal education. I learned a lot from a few very talented professors. Now I am trying to push myself to aqquire a portfolio I can be proud of. </h4>
+</div>
+<br>
+<div id="head">
+	<p>Unreal Engine 5 Desert Render Full</p>
+<iframe width="800" height="300"
+	src="Video-Audio/Cinetest.mp4">
+</iframe>
+</div>
+</body>
+<footer>
+	<p>&copy 2021 Brettin Parkin | Privacy Policy | Legal Issues</p>
+</footer>
+</html>

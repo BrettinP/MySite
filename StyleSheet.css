@@ -1,0 +1,159 @@
+body{
+	font-family:Calibri, Arial, sans-serif ;
+    background-color:#dbcdc6 ;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+}
+
+ul#horizontal-list li {
+		display: inline;
+}
+	
+nav {
+	display: table;
+	margin: 0 auto;
+	background-color:#ead7d1 ; 
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width:80% ;
+	height: 30px;
+	min-width:850px ;
+}	
+
+#wrapper{
+	
+	background-color:#dd99bb ; 
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	width:80% ;
+	height: 1000px;
+	margin-left: auto ;
+	margin-right: auto;
+	min-width: 850px ;
+}
+
+div#textbox{
+	position: relative;
+	background-color: #7b506f ; 
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin: auto ;
+	float: left;
+	width: 800px;
+	text-align: left;
+
+}
+
+#slide {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.audio-player {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#head{
+	background-color: #1f1a38 ; 
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin: auto ;
+	float: left;
+	text-align: center;
+}
+
+header{
+	background-color:#EAD7d1 ; 
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	width:80% ;
+	height: 100px;
+	margin:auto ;
+	min-width:850px ;
+	display: flex;
+	align-items: center;
+}
+
+#name{
+	color: #000000 ;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 400px;
+	text-align: center;
+	
+}	
+
+div{ 
+	background-image: url('BG.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body{ 
+	background-image: url('BG2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h4 {
+	color: #FFFFFF; 
+	background-color: #000000;
+}	
+
+h3 {
+	display: flex;
+	color: #FFFFFF;
+	justify-content: center;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h8 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+h6 {
+	color: #FFFFFF;
+}
+
+footer{
+	display: flex;
+	position:fixed;
+	left:0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background:#ead7d1;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	justify-content: center;
+	align-items: center;
+
+}
