@@ -62,7 +62,9 @@ div#textbox{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
+	margin: 0 auto;
+	width:80% ;
+	min-width:850px ;
 }
 #head{
 	background-color: #1f1a38 ; 
